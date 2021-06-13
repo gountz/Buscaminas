@@ -3,6 +3,22 @@
     padding:0;
     box-sizing:border-box;
 }
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.texto-contenedor{
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    margin-bottom: 3%;
+    padding:30px;
+    border-radius: 15px;
+}
 .Iniciar{
     border:none;
     width: 40%;
@@ -17,23 +33,15 @@
 .Iniciar:hover{
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
-.contenedor{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background:pink;
-}
 
 .tablero{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     display:flex;
     justify-content:center;
     align-items: center;
-    background:red;
     width: 700px;
     height: 600px;
+    border-radius:15px;
 }
 .contenedor-casillas{
     display: inline-grid;
@@ -61,7 +69,8 @@
 .bomba{
     display:none;
 }
-p{
+.indice{
+    
     visibility:hidden;
 }
 i{
