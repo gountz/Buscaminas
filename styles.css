@@ -44,7 +44,9 @@
     border-radius:15px;
 }
 .contenedor-casillas{
-    display: inline-grid;
+    display:grid;
+    grid-template-columns:repeat(4,25%);
+    grid-template-columns:repeat(4,25%);
     width: 90%;
     height: 90%;
 }
